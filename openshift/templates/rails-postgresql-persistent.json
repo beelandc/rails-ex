@@ -314,6 +314,8 @@
         "accessModes": [
           "ReadWriteOnce"
         ],
+        "storageClassName": "ocs-storagecluster-cephfs",
+        "volumeMode": "Filesystem"
         "resources": {
           "requests": {
             "storage": "${VOLUME_CAPACITY}"
